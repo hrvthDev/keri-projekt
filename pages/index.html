@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Főoldal | Katolikuskeri</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+
+                <li><a href="index.html">Kezdőlap</a></li>
+
+
+
+                <li class="dropdown" id="dropdownBtn">
+                    <a>Szakmáink ▾</a>
+                    <div class="dropdown-content" id="dropdownMenu">
+
+                        <ul>
+                            <li>
+                                <a href="info.html">Informatika ágazat</a>
+                            </li>
+
+                            <li>
+                                <a href="kozgazdasz.html">Közgazdász ágazat</a>
+                            </li>
+
+                            <li>
+                                <a href="oktatas.html">Oktatás ágazat</a>
+                            </li>
+
+                            <li>
+                                <a href="tehetseg.html">Tehetséggondozó ágazat</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                </li>
+
+
+
+
+                <li><a href="https://katolikuskeri.edupage.org/timetable" target="_blank">Órarend</a></li>
+                <li><a href="">Tehetségútlevél</a></li>
+                <li><a href="https://idp.e-kreta.hu/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dkreta-web%26response_type%3Dcode%26scope%3Dopenid%2520email%2520offline_access%26state%3DOpenIdConnect.AuthenticationProperties%253D1VIGyogRxZjlpNB4pKSm6bNa2_VsAXYCyPIUEVp3m2KUQ43wnmwItI4v4hv00dUI9FR8CarNQ0ySeIgIjSXgkNWvwtJDumGEXrxhcCd-fAyvN0hG47nAabftrH8RskZqpcPtg3yHYESmTrARLko6_Q%26response_mode%3Dform_post%26nonce%3D638947633543136851.NTcxNDAwNTgtNzljZi00ZjhiLWI3ZjctY2YzOTA3NzQyM2MxNzcwNTM1NWEtYjRiMy00Mjc1LTkzZjEtOWEyMzczOGRmMjMw%26institute_code%3Dkatolikuskeri%26institute_data%3DeyJuZXh0X3VwZGF0ZV9kYXRlX3RpbWUiOiIyMDI1LjEwLjA3LiAyMjowMCIsImlzX3N6aXJfaW5zdGl0dXRlIjpmYWxzZSwiaXNfbGljZW5jZV92YWxpZCI6dHJ1ZSwiaXNfYXJjaGl2ZSI6ZmFsc2UsImlzX2Nzb2trZW50ZXR0X2dvbmR2aXNlbG8iOmZhbHNlLCJpc19pbnRlem1lbnlfcm92aWRuZXYiOnRydWUsImlzX3N1Y2Nlc3NfYXV0aG9yaXplZF9kYXRlIjpmYWxzZX0%253D%26prompt%3Dlogin%26redirect_uri%3Dhttps%253A%252F%252Fkatolikuskeri.e-kreta.hu%26x-client-SKU%3DID_NET461%26x-client-ver%3D5.3.0.0%26suppressed_prompt%3Dlogin"
+                        target="_blank">E-napló</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="main-block">
+
+            <div id="main-block-content">
+
+
+                <img src="/frontend/images/keri_logo.jpg" alt="keri_logo" id="logo">
+                <h1>Katolikus Keri</h1>
+                <span>,, Szívvel lélekkel""</span>
+                <button id="szak-btn">
+                    <a href="#szak">Válassz szakot!</a>
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <section id="szak">
+
+        <div id="card-container">
+            <div id="card">
+                <h2 id="card-title">Informatika és
+                    távközlés ágazat</h2>
+
+                <img src="" alt="">
+
+                <button type="submit">
+                    <a href="info.html" id="gomb">Ágazat megtekintése</a>
+                </button>
+
+
+            </div>
+
+            <div id="card">
+
+                <h2 id="card-title">Gazdálkodás és menedzsmentágazat</h2>
+
+                <button type="submit">
+                    <a href="kozgazdasz.html" id="gomb">Ágazat megtekintése</a>
+                </button>
+            </div>
+
+        </div>
+
+
+
+        <div id="card-container">
+
+            <div id="card">
+
+                <h2 id="card-title">Oktatás ágazat</h2>
+
+                <button type="submit">
+                    <a href="oktatas.html" id="gomb">Ágazat megtekintése</a>
+                </button>
+
+
+            </div>
+
+
+            <div id="card">
+
+                <h2 id="card-title">Tehetséggondozó</h2>
+
+                <button type="submit">
+                    <a href="tehetseg.html" id="gomb">Ágazat megtekintése</a>
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p>Készítette: Horváth Dávid 11.c</p>
+    </footer>
+
+
+    <script src="../js/script.js">
+
+    </script>
+
+
+</body>
+
+</html>

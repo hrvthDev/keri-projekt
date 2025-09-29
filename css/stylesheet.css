@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+    margin: 250px auto;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a{
+    font-size: 20px;
+}
+
+span{
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: #76031a;
+    padding: 20px;
+}
+
+footer {
+    background-color: #76031a;
+    padding: 30px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+
+#card-title {
+    margin: 70px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+#card {
+    width: 500px;
+    height: 250px;
+    background-color: #76031a;
+    color: white;
+}
+
+button {
+    background-color: #76031a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#gomb {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+
+#main-block{
+    margin: 300px auto;
+}
+
+#main-block-content{
+    background-color: #76031a;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+#szak-btn{
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+
+img{
+    height: 200px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block; 
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #76031a;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  margin-top: 30px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.show {
+  display: block;
+}
+
+#dropdownMenu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
