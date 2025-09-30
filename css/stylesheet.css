@@ -156,3 +156,82 @@ footer{
     bottom: 0;
     left: 0;
 }
+
+
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #76031a;
+  padding: 20px;
+}
+
+
+#szakma-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #76031a;
+    border-radius: 10;
+
+}
+
+
+#szakma-kartya{
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10;
+}
+
+#szakma-cím{
+    color: black;
+}
+
+
+#szakma-kartya2{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10;
+}
+
+#szakma-szöveg{
+    color: black;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+#szakma-cím{
+    margin-bottom: 10px;
+}
+
+#térkép iframe{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+#pályázat{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    height: 200px;
+}
