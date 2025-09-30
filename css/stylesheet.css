@@ -235,3 +235,74 @@ footer{
     z-index: 1000;
     height: 200px;
 }
+
+#kapcsolat-container{
+    background-color: #76031a;
+    height: 700px;
+    width: 800px;
+}
+
+#kapcsolat-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#kapcsolat-cim{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+i{
+    height: 50px;
+}
+
+li{
+    color: white;
+}
+
+#kapcsolat-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#kapcsolat-lista li{
+    margin:  20px;
+}
+
+#kapcsolat-szöveg{
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #76031a;
+    width: 100%;
+  }
+
+
+  li{
+    margin: 5px;
+  }
+
+}
+
+#tehetseg-kep{
+    height: 1200px;
+    margin: 10px;
+}
+
+table{
+    background-color: white;
+    height: 50px;
+}
+
